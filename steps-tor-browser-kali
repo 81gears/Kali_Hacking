@@ -1,0 +1,75 @@
+how to Download Tor for Linux
+
+1. Download Tor Browser 
+https://www.torproject.org/
+
+2. Extract files and cut folder to Desktop
+
+3. Open Terminal
+chown -R root:root (name-of-Tor-folder)
+
+4. Open folder
+ls
+cd tor-browser
+cd Browser
+
+open start-tor-browser in leafpad
+
+search for root in file
+
+add #
+#
+#
+#
+
+
+#if [ "`id -u`" -eq 0 ]; then
+#	complain "The Tor Browser Bundle should not be run as root.  Exiting."
+#	exit 1
+#fi
+
+save and close the file
+
+5. move Tor-browser folder to etc folder
+
+6. apt install alacarte
+
+7. Now Open Main Menu
+
+go under application Menu
+
+Lets add Tor-Browser to Application menu
+Click new Item
+Browse
+find the Tor folder etc/ and open the Browser folder in their you will find start-tor-browser choose that.
+
+now click on icon and go to etc/ tor folder open browser folder and click chrome/icon
+
+8. now name the file and save to Main Menu .
+9. It is now under Application Menu.
+
+Enjoy
+
+But remember Tor does NOT make you 100% / :-)
+
+HH   HH                kk     
+HH   HH   aa aa   cccc kk  kk 
+HHHHHHH  aa aaa cc     kkkkk  
+HH   HH aa  aaa cc     kk kk  
+HH   HH  aaa aa  ccccc kk  kk
+
+TTTTTTT hh             
+  TTT   hh        eee  
+  TTT   hhhhhh  ee   e 
+  TTT   hh   hh eeeee  
+  TTT   hh   hh  eeeee 
+  
+PPPPPP  lll                        tt    !!! 
+PP   PP lll   aa aa nn nnn    eee  tt    !!! 
+PPPPPP  lll  aa aaa nnn  nn ee   e tttt  !!! 
+PP      lll aa  aaa nn   nn eeeee  tt        
+PP      lll  aaa aa nn   nn  eeeee  tttt !!! 
+
+""")
+print("Your hacker handle is, "+handles[0],handles[1])
+
